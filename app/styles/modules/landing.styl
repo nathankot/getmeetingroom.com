@@ -1,22 +1,48 @@
+_logo_size = image-size('../images/logo.png')
+
 .landing.page // Namespace
   position relative
   background-color #1D1D1D
   margin-bottom 240px
+  padding-top 200px
 
   .informational
-    min-height 946px
+    container()
     
     > .content
-      container()
+      row()
 
   .example
+    columns(3)
     .iphone
       position relative
+      margin 0 auto
       -image-background('../images/iphone', 'png')
     .appscreen
       position absolute
       top 131px
       left 36px
+
+  .description
+    columns(3)
+    padding-top line_breaks(4)
+
+  .title
+    clearfix()
+    .logo
+      display block
+      float left
+      margin-right 1em
+      -image-background('../images/logo', 'png')
+    .name
+      display block
+      float left
+      height _logo_size[1]
+      margin 0
+      color #4F4F4F
+      em
+        color white
+        font-style normal
 
   .calltoaction
     position absolute
