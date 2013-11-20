@@ -25,16 +25,18 @@ _logo_size = image-size('../images/logo.png')
 
   .description
     columns(3)
-    padding-top line_breaks(4)
+    padding-top line_breaks(2)
 
   .title
     clearfix()
+    margin-bottom line_breaks(2)
     .logo
       display block
       float left
       margin-right 1em
       -image-background('../images/logo', 'png')
     .name
+      scale_type 4
       display block
       float left
       height _logo_size[1]
