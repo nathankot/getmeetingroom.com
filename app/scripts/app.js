@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('sampleApp', [])
+angular.module('meetingroomApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -12,5 +12,5 @@ angular.module('sampleApp', [])
       });
   });
 
-angular.module('sampleApp').constant('lodash', window._);
-angular.module('wed.isApp').constant('jQuery', window.$);
+angular.module('meetingroomApp').constant('lodash', window._);
+angular.module('meetingroomApp').constant('jQuery', window.$);
