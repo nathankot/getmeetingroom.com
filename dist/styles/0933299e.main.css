@@ -3129,6 +3129,29 @@ ul {
   padding: 0.8em 1.2em;
 }
 
+/* line 2 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/plugins/index.styl */
+
+/* line 2 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/plugins/socialite.styl */
+
+/* line 1 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/plugins/socialite.styl */
+.social.buttons {
+  list-style: none;
+  text-align: center;
+}
+
+/* line 4 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/plugins/socialite.styl */
+.social.buttons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* line 8 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/plugins/socialite.styl */
+.social.buttons .twitter-share,
+.social.buttons .googleplus-one,
+.social.buttons .facebook-like {
+  width: 60px;
+}
+
 /* line 2 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/index.styl */
 
 /* line 1 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
@@ -3508,7 +3531,7 @@ ul {
   line-height: 1.6rem;
 }
 
-/* line 9 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/main.styl */
+/* line 10 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/main.styl */
 html,
 body {
   overflow-x: hidden;
