@@ -1,3 +1,5 @@
+_phone_size = image-size('../images/iphone.png')
+_screen_size = image-size('../images/screen_1.png')
 _logo_size = image-size('../images/logo.png')
 
 .landing.page // Namespace
@@ -19,11 +21,18 @@ _logo_size = image-size('../images/logo.png')
     .iphone
       position relative
       margin 0 auto
-      -image-background('../images/iphone', 'png')
+      max-width 100%
+      @media daddy
+        -image-background('../images/iphone', 'png')
     .appscreen
-      position absolute
-      top 17.3%
-      left 8.65%
+      @media daddy
+        position absolute
+        top 17.3%
+        left 8.65%
+    img
+      display block
+      max-width 100%
+      margin 0 auto
 
   .description
     expand_for('mummy')
@@ -54,6 +63,9 @@ _logo_size = image-size('../images/logo.png')
 
   .slogan.text
     margin-bottom 0
+    white-space pre-line
+    @media daddy
+      white-space normal
 
   .soon.text
     margin-bottom line_breaks(1)
