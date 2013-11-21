@@ -468,7 +468,7 @@ p {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   text-rendering: optimizeLegibility;
-  text-shadow: 0 1px 1px #000 !important;
+  text-shadow: 0 1px 1px #000;
 }
 
 /* line 9 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/headings.styl */
@@ -1083,7 +1083,7 @@ ul {
   color: #919191;
 }
 
-/* line 15 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/message.styl */
+/* line 16 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/message.styl */
 /*
  * # Semantic - Message
  * http://github.com/jlukic/semantic-ui/
@@ -1397,9 +1397,10 @@ ul {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  text-shadow: none;
 }
 
-/* line 11 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/elements/button.styl */
+/* line 12 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/elements/button.styl */
 /*
  * # Semantic - Button
  * http://github.com/jlukic/semantic-ui/
@@ -2794,14 +2795,15 @@ ul {
 .ui.button {
   text-transform: none;
   font-weight: 300;
+  text-shadow: none;
 }
 
-/* line 7 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/elements/button.styl */
+/* line 8 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/elements/button.styl */
 .ui.secondary.button {
   background-color: #35272a;
 }
 
-/* line 9 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/elements/button.styl */
+/* line 10 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/elements/button.styl */
 .ui.secondary.button:hover {
   background-color: #492a31;
 }
