@@ -47,7 +47,12 @@
       <div class="one field">
         <label>Let me know when it's ready:</label>
         <div class="ui input action">
-          <input type="email" placeholder="Your email address" ng-model="user.email">
+          <input 
+            type="email" 
+            placeholder="Your email address" 
+            ng-model="user.email"
+            required
+          >
           <div class="ui red button" ng-click="save(user)">Ease my Pain</div>
         </div>
       </div>
