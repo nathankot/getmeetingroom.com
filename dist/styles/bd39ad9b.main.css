@@ -3348,7 +3348,7 @@ a:hover {
 }
 @media screen and (min-width: 36.559599999999996em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational {
     padding: 0 1.618em 0 1.618em;
     margin-left: auto;
@@ -3358,7 +3358,7 @@ a:hover {
 }
 @media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational {
     width: 30em;
   }
@@ -3386,7 +3386,7 @@ a:hover {
 }
 @media screen and (min-width: 36.559599999999996em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational > .content {
     width: 61.2em;
     margin-left: -1.2em;
@@ -3394,7 +3394,7 @@ a:hover {
 }
 @media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational > .content {
     width: 31.2em;
     margin-left: -1.2em;
@@ -3414,7 +3414,7 @@ a:hover {
 /* line 91 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/karma/dist/karma.styl */
 @media screen and (min-width: 36.559599999999996em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .example {
     width: 29.4em;
     margin-left: 1.2em;
@@ -3422,7 +3422,7 @@ a:hover {
 }
 @media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .example {
     margin-left: 0;
     -webkit-box-sizing: border-box;
@@ -3455,17 +3455,24 @@ a:hover {
   }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
     .landing.page .example .iphone {
       background-image: url('../images/cef19d18.iphone@2x.png');
     }
 }
 }
+@media screen and (min-width: 69.5596em) {
 
 /* line 27 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+  .landing.page .example .iphone {
+    margin: 0;
+  }
+}
+
+/* line 29 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 @media screen and (min-width: 36.559599999999996em) {
 
-/* line 28 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 30 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .example .appscreen {
     position: absolute;
     top: 17.3%;
@@ -3473,14 +3480,14 @@ a:hover {
   }
 }
 
-/* line 32 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 34 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .example img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
 }
 
-/* line 37 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 39 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .description {
   -kgs-expand-for: 'mummy';
   float: left;
@@ -3496,7 +3503,7 @@ a:hover {
 /* line 91 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/karma/dist/karma.styl */
 @media screen and (min-width: 36.559599999999996em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .description {
     width: 29.4em;
     margin-left: 1.2em;
@@ -3504,7 +3511,7 @@ a:hover {
 }
 @media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .description {
     margin-left: 0;
     -webkit-box-sizing: border-box;
@@ -3518,13 +3525,13 @@ a:hover {
 }
 @media screen and (min-width: 69.5596em) {
 
-/* line 43 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 45 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .description {
     text-align: left;
   }
 }
 
-/* line 46 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 48 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .title {
   *zoom: 1;
   margin-bottom: 3.2rem;
@@ -3542,7 +3549,7 @@ a:hover {
   clear: both;
 }
 
-/* line 49 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 51 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .title .logo {
   display: inline-block;
   margin-right: 0.5em;
@@ -3556,13 +3563,13 @@ a:hover {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
 
-/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 131 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .title .logo {
     background-image: url('../images/8eb7e864.logo@2x.png');
   }
 }
 
-/* line 53 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 55 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .title .name {
   vertical-align: top;
   font-size: 1.75em;
@@ -3574,44 +3581,44 @@ a:hover {
   color: #4f4f4f;
 }
 
-/* line 60 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 62 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .title .name em {
   color: #fff;
   font-style: normal;
 }
 
-/* line 64 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 66 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .slogan.text {
   margin-bottom: 0;
   white-space: pre-line;
 }
 @media screen and (min-width: 36.559599999999996em) {
 
-/* line 67 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 69 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .slogan.text {
     white-space: normal;
   }
 }
 
-/* line 70 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 72 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .soon.text {
   color: #808080;
   margin-bottom: 1.6rem;
 }
 
-/* line 74 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 76 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .togglelist.button {
   margin-bottom: 3.2rem;
 }
 @media screen and (min-width: 69.5596em) {
 
-/* line 76 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 78 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .togglelist.button {
     display: none;
   }
 }
 
-/* line 79 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 81 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .features {
   display: none;
   margin: 0 auto 3.2rem auto;
@@ -3622,13 +3629,13 @@ a:hover {
   line-height: 1.6rem;
 }
 
-/* line 86 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 88 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .features.active {
   display: block;
 }
 @media screen and (min-width: 36.559599999999996em) {
 
-/* line 88 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 90 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .features {
     font-size: 1em;
     font-size: 1rem;
@@ -3638,7 +3645,7 @@ a:hover {
 }
 @media screen and (min-width: 69.5596em) {
 
-/* line 91 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 93 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .features {
     display: block;
     margin: 0;
@@ -3646,20 +3653,20 @@ a:hover {
   }
 }
 
-/* line 96 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 98 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .features p {
   text-align: left;
   margin-bottom: 1.6rem;
 }
 @media screen and (min-width: 69.5596em) {
 
-/* line 99 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 101 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .features p {
     white-space: pre-line;
   }
 }
 
-/* line 102 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 104 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .features ul {
   margin: 0;
   margin-bottom: 1.6rem;
@@ -3668,7 +3675,7 @@ a:hover {
   text-align: left;
 }
 
-/* line 109 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 111 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .calltoaction {
   position: absolute;
   top: 100%;
@@ -3677,24 +3684,24 @@ a:hover {
   height: 240px;
 }
 
-/* line 116 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 118 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .calltoaction .register.form,
 .landing.page .calltoaction .success {
   max-width: 400px;
   margin: 3.2rem auto;
 }
 
-/* line 121 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 123 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .calltoaction .success {
   text-align: center;
 }
 
-/* line 124 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 126 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .calltoaction label {
   text-align: center;
 }
 
-/* line 127 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
+/* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .calltoaction label.bottom {
   font-size: 0.666em;
   font-size: 0.666rem;
