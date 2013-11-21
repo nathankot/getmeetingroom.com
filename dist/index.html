@@ -33,20 +33,20 @@
 
       <div class="informational">
         <div class="content">
-        
+
           <div class="description">
             <div class="title">
               <div class="logo"></div>
               <h1 class="name"><em>meeting</em>room</h1>
             </div>
             <div class="content">
-              <h1 class="slogan text">Meetings 
+              <h1 class="slogan text">Meetings
                 that don't suck.</h1>
               <h3 class="soon text">Coming soon to iOS.</h3>
               <div class="ui secondary button togglelist" ng-click="state.listRevealed = !state.listRevealed">How?</div>
               <div class="features" ng-class="{ active: state.listRevealed }">
                 <p>Meetingroom is a re-invention of the remote meeting.
-                  Hold simultaneous discussions whilst on-the-go, 
+                  Hold simultaneous discussions whilst on-the-go,
                   Meetingroom will keep track of your context.</p>
                 <ul class="list">
                   <li>Define a clear agenda.</li>
@@ -74,7 +74,7 @@
       <div class="calltoaction" ng-controller="RegisterCtrl">
         <form class="ui register form" name="user" ng-submit="save(user)" ng-show="!state.registered" ng-class="{ warning: state.errors }">
           <div class="one field" ng-class="{ error: user.$error.email }">
-            <label>Let me know when it's ready:</label>
+            <label>Let me know when it's ready,</label>
             <div class="ui input action">
               <input type="email" placeholder="Your email address" ng-model="user.email" required="">
               <div class="ui red button" ng-click="save(user)">Ease my Pain</div>
