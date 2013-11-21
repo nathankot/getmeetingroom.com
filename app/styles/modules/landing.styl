@@ -68,6 +68,7 @@ _logo_size = image-size('../images/logo.png')
       white-space normal
 
   .soon.text
+    color darken(white, 50%)
     margin-bottom line_breaks(1)
 
   .togglelist.button
@@ -75,22 +76,35 @@ _logo_size = image-size('../images/logo.png')
     @media daddyOnly
       display none
 
-  .features.list
+  .features
     display none
     margin 0 auto line_breaks(2) auto
     text-align center
     max-width 20em
     scale_type -1
+
     &.active
       display block
     @media daddy
       scale_type 0
       text-align left
-      list-style disc
     @media daddyOnly
       display block
-      max-width none
+      margin 0
+      max-width 26em
+
+    p
+      text-align left
+      margin-bottom line_breaks(1)
+      @media daddyOnly
+        white-space pre-line
+
+    ul
+      margin 0
+      margin-bottom line_breaks(1)
+      list-style disc
       margin-left 1em
+      text-align left
 
   .calltoaction
     position absolute
