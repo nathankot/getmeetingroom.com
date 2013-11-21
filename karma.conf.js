@@ -11,9 +11,9 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'client/app/components/jquery/jquery.js',
+      'app/bower_components/jquery/jquery.js',
       'app/bower_components/angular/angular.js',
-      'client/app/components/Socialite/socialite.js',
+      'app/bower_components/Socialite/socialite.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
       'app/scripts/*.js',
       'app/scripts/**/*.js',
