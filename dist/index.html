@@ -6,15 +6,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>Meetingroom App</title>
+    <meta name="description" content="(Remote) meeting re-invented.">
     <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <script type="text/javascript" src="//use.typekit.net/ond0hsn.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-        <link rel="stylesheet" href="styles/ad5f174b.main.css">
+        <link rel="stylesheet" href="styles/60d1dc33.main.css">
 </head>
   <body ng-app="meetingroomApp">
     <!--[if lt IE 7]>
@@ -34,14 +33,6 @@
 
       <div class="informational">
         <div class="content">
-
-          <div class="example">
-            <div class="iphone">
-              <div class="appscreen">
-                <img src="/images/df6d7e5d.screen_1.png">
-              </div>
-            </div>
-          </div>
         
           <div class="description">
             <div class="title">
@@ -49,8 +40,10 @@
               <h1 class="name"><em>meeting</em>room</h1>
             </div>
             <div class="content">
-              <h1>Meetings that don't suck.</h1>
-              <ul>
+              <h1 class="slogan text">Meetings that don't suck.</h1>
+              <h3 class="soon text">Coming soon to iOS.</h3>
+              <div class="ui secondary button togglelist" ng-click="state.listRevealed = !state.listRevealed">How?</div>
+              <ul class="features list" ng-class="{ active: state.listRevealed }">
                 <li>Remote meetings without losing your sanity.</li>
                 <li>Meetings re-invented</li>
                 <li>Store unlimited meetings</li>
@@ -63,7 +56,14 @@
                 <li>Rotate clockwise to fast-forward. Vice versa.</li>
                 <li>Add action date reminders to everyone's calendar</li>
               </ul>
-              <h3>Coming soon to iOS.</h3>
+            </div>
+          </div>
+
+          <div class="example">
+            <div class="iphone">
+              <div class="appscreen">
+                <img src="/images/df6d7e5d.screen_1.png">
+              </div>
             </div>
           </div>
 
@@ -71,19 +71,26 @@
       </div>
 
       <div class="calltoaction" ng-controller="RegisterCtrl">
-        <form class="ui register form" ng-submit="save(user)" ng-show="!state.registered">
-          <div class="one field">
+        <form class="ui register form" name="user" ng-submit="save(user)" ng-show="!state.registered" ng-class="{ warning: state.errors }">
+          <div class="one field" ng-class="{ error: user.$error.email }">
             <label>Let me know when it's ready:</label>
             <div class="ui input action">
-              <input type="email" placeholder="Your email address" ng-model="user.email">
+              <input type="email" placeholder="Your email address" ng-model="user.email" required="">
               <div class="ui red button" ng-click="save(user)">Ease my Pain</div>
             </div>
+            <label class="bottom">No spam, promise.</label>
+          </div>
+          <div class="ui warning message">
+            <div ng-repeat="error in state.errors">{{ error }}</div>
           </div>
           <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px">
         </form>
 
-        <div class="ui success message" ng-show="state.registered">
-          Thanks for showing interest!
+        <div class="success" ng-show="state.registered">
+          <div class="ui green message">
+            Thanks for showing interest!<br>
+            We'll be in touch.
+          </div>
         </div>
       </div>
 
@@ -102,6 +109,6 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 
-        <script src="scripts/6bc8367c.scripts.js"></script>
+        <script src="scripts/bcc7b6a1.scripts.js"></script>
 </body>
 </html>
