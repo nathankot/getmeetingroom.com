@@ -13,7 +13,7 @@
           <h3 class="soon text">Coming soon to iOS.</h3>
           <div 
             class="ui secondary button togglelist" 
-            ng-click="toggleList()"
+            ng-click="state.listRevealed = !!!state.listRevealed"
           >How?</div>
           <ul class="features list" ng-class="{ active: state.listRevealed }">
             <li>Remote meetings without losing your sanity.</li>
