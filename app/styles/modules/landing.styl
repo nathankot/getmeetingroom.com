@@ -65,11 +65,16 @@ _logo_size = image-size('../images/logo.png')
 
   .features.list
     display none
-    margin-bottom line_breaks(2)
+    margin 0 auto line_breaks(2) auto
+    text-align left
+    list-style disc
+    max-width 23em
     &.active
       display block
     @media daddyOnly
       display block
+      max-width none
+      margin-left 1em
 
   .calltoaction
     position absolute
