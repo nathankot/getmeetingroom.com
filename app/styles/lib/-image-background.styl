@@ -4,8 +4,8 @@
   width size[0]
   height size[1]
   background-image s('url(%s)', npath)
+  background-size 100%
 
   @media retina
     rpath = path + '@2x.' + ext
     background-image s('url(%s)', rpath)
-    background-size contain
