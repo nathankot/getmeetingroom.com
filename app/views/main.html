@@ -9,8 +9,13 @@
           <h1 class="name"><em>meeting</em>room</h1>
         </div>
         <div class="content">
-          <h1>Meetings that don't suck.</h1>
-          <ul>
+          <h1 class="slogan text">Meetings that don't suck.</h1>
+          <h3 class="soon text">Coming soon to iOS.</h3>
+          <div 
+            class="ui secondary button togglelist" 
+            ng-click="toggleList()"
+          >How?</div>
+          <ul class="features list" ng-class="{ active: state.listRevealed }">
             <li>Remote meetings without losing your sanity.</li>
             <li>Meetings re-invented</li>
             <li>Store unlimited meetings</li>
@@ -23,7 +28,6 @@
             <li>Rotate clockwise to fast-forward. Vice versa.</li>
             <li>Add action date reminders to everyone's calendar</li>
           </ul>
-          <h3>Coming soon to iOS.</h3>
         </div>
       </div>
 

@@ -4,6 +4,7 @@ angular.module('meetingroomApp')
   .controller('RegisterCtrl', function ($scope, $http, API_ROOT) {
 
     $scope.state = {};
+
     $scope.save = function(user) {
       if (user.$valid) {
         $http.post(API_ROOT + '/users', { user: user }).success(function() {
