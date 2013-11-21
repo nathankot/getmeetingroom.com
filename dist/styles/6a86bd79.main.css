@@ -45,7 +45,7 @@ body {
 
 /* line 1 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/lib/-image-background.styl */
 
-/* line 6 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/index.styl */
+/* line 7 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/index.styl */
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 
 /* ==========================================================================
@@ -453,7 +453,7 @@ table {
     border-spacing: 0;
 }
 
-/* line 6 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/fonts.styl */
+/* line 7 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/fonts.styl */
 
 /* line 1 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/fonts.styl */
 body,
@@ -520,6 +520,21 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+/* line 5 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/links.styl */
+
+/* line 1 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/links.styl */
+a,
+a:active,
+a:visited {
+  color: #bebebe;
+  text-shadow: none;
+}
+
+/* line 7 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/normalize/links.styl */
+a:hover {
+  color: #333;
 }
 
 /* line 5 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/index.styl */
@@ -3691,4 +3706,13 @@ html,
 body {
   overflow-x: hidden;
   background: #1d1d1d url("../images/2d003817.bg.png");
+}
+
+/* line 14 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/main.styl */
+#footer {
+  margin: 1.6rem 0;
+  font-size: 0.666em;
+  font-size: 0.666rem;
+  line-height: 1.6rem;
+  text-align: center;
 }
