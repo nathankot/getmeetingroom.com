@@ -13,7 +13,7 @@
     <script src="//use.typekit.net/ond0hsn.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
-        <link rel="stylesheet" href="styles/0933299e.main.css">
+        <link rel="stylesheet" href="styles/6d637a13.main.css">
 </head>
   <body ng-app="meetingroomApp">
     <!--[if lt IE 7]>
@@ -72,7 +72,7 @@
       </div>
 
       <div class="calltoaction" ng-controller="RegisterCtrl">
-        <form class="ui register form" name="user" ng-submit="save(user)" ng-show="!state.registered" ng-class="{ warning: state.errors }">
+        <form class="ui register form" name="user" ng-submit="save(user)" ng-show="!state.registered" ng-class="{ warning: state.errors, loading: state.loading }">
           <div class="one field" ng-class="{ error: user.$error.email }">
             <label>Let me know when it's ready,</label>
             <div class="ui input action">
@@ -116,6 +116,6 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 
-        <script src="scripts/cd2373fd.scripts.js"></script>
+        <script src="scripts/6929cd45.scripts.js"></script>
 </body>
 </html>

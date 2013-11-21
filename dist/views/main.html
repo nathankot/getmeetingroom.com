@@ -41,7 +41,7 @@
   </div>
 
   <div class="calltoaction" ng-controller="RegisterCtrl">
-    <form class="ui register form" name="user" ng-submit="save(user)" ng-show="!state.registered" ng-class="{ warning: state.errors }">
+    <form class="ui register form" name="user" ng-submit="save(user)" ng-show="!state.registered" ng-class="{ warning: state.errors, loading: state.loading }">
       <div class="one field" ng-class="{ error: user.$error.email }">
         <label>Let me know when it's ready,</label>
         <div class="ui input action">

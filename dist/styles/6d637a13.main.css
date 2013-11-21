@@ -524,7 +524,7 @@ ul {
 
 /* line 5 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/index.styl */
 
-/* line 5 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/form.styl */
+/* line 37 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/form.styl */
 /*
  * # Semantic - Form
  * http://github.com/jlukic/semantic-ui/
@@ -1081,6 +1081,161 @@ ul {
 /* line 3 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/form.styl */
 .ui.form .field > label {
   color: #919191;
+}
+
+/* line 6 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/form.styl */
+.ui.form.loading::after {
+  background: #1d1d1d url("../images/2d003817.bg.png");
+}
+
+/* line 9 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/form.styl */
+.ui.form.loading::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0;
+  border-color: transparent #fff;
+  -webkit-animation-name: loader;
+  -moz-animation-name: loader;
+  -ms-animation-name: loader;
+  -o-animation-name: loader;
+  animation-name: loader;
+  -webkit-animation-duration: 2.5s;
+  -moz-animation-duration: 2.5s;
+  -ms-animation-duration: 2.5s;
+  -o-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+  z-index: 1000;
+}
+
+/* line 26 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/semantic/build/uncompressed/collections/form.css */
+@-moz-keyframes loader {
+  0% {
+    border-width: 1em 1em 0 0;
+  }
+
+  25% {
+    border-width: 0 1em 1em 0;
+  }
+
+  50% {
+    border-width: 0 0 1em 1em;
+  }
+
+  75% {
+    border-width: 1em 0 0 1em;
+  }
+
+  100% {
+    border-width: 1em 1em 0 0;
+  }
+}
+
+/* line 26 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/semantic/build/uncompressed/collections/form.css */
+@-webkit-keyframes loader {
+  0% {
+    border-width: 1em 1em 0 0;
+  }
+
+  25% {
+    border-width: 0 1em 1em 0;
+  }
+
+  50% {
+    border-width: 0 0 1em 1em;
+  }
+
+  75% {
+    border-width: 1em 0 0 1em;
+  }
+
+  100% {
+    border-width: 1em 1em 0 0;
+  }
+}
+
+/* line 26 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/semantic/build/uncompressed/collections/form.css */
+@-o-keyframes loader {
+  0% {
+    border-width: 1em 1em 0 0;
+  }
+
+  25% {
+    border-width: 0 1em 1em 0;
+  }
+
+  50% {
+    border-width: 0 0 1em 1em;
+  }
+
+  75% {
+    border-width: 1em 0 0 1em;
+  }
+
+  100% {
+    border-width: 1em 1em 0 0;
+  }
+}
+
+/* line 26 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/semantic/build/uncompressed/collections/form.css */
+@-ms-keyframes loader {
+  0% {
+    border-width: 1em 1em 0 0;
+  }
+
+  25% {
+    border-width: 0 1em 1em 0;
+  }
+
+  50% {
+    border-width: 0 0 1em 1em;
+  }
+
+  75% {
+    border-width: 1em 0 0 1em;
+  }
+
+  100% {
+    border-width: 1em 1em 0 0;
+  }
+}
+
+/* line 26 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/semantic/build/uncompressed/collections/form.css */
+@keyframes loader {
+  0% {
+    border-width: 1em 1em 0 0;
+  }
+
+  25% {
+    border-width: 0 1em 1em 0;
+  }
+
+  50% {
+    border-width: 0 0 1em 1em;
+  }
+
+  75% {
+    border-width: 1em 0 0 1em;
+  }
+
+  100% {
+    border-width: 1em 1em 0 0;
+  }
 }
 
 /* line 16 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/ui/collections/message.styl */
