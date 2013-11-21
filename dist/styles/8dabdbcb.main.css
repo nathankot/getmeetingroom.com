@@ -32,7 +32,7 @@
 
 /* line 150 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/karma/dist/karma.styl */
 html {
-  font-size: 120%;
+  font-size: 110%;
 }
 
 /* line 153 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/karma/dist/karma.styl */
@@ -3332,7 +3332,7 @@ a:hover {
   background-color: #1d1d1d;
   margin-bottom: 300px;
 }
-@media screen and (min-width: 85.4832em) {
+@media screen and (min-width: 69.5596em) {
 
 /* line 9 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page {
@@ -3343,24 +3343,24 @@ a:hover {
 /* line 12 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
 .landing.page .informational {
   padding: 0 0.809em 0 0.809em;
-  max-width: 34em;
+  max-width: 30em;
   margin: auto;
 }
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational {
     padding: 0 1.618em 0 1.618em;
     margin-left: auto;
     margin-right: auto;
-    max-width: 68em;
+    max-width: 60em;
   }
 }
-@media screen and (min-width: 44.6832em) and (max-width: 85.4832em) {
+@media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational {
-    width: 34em;
+    width: 30em;
   }
 }
 
@@ -3384,19 +3384,19 @@ a:hover {
 .landing.page .informational > .content:after {
   clear: both;
 }
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational > .content {
-    width: 69.2em;
+    width: 61.2em;
     margin-left: -1.2em;
   }
 }
-@media screen and (min-width: 44.6832em) and (max-width: 85.4832em) {
+@media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .informational > .content {
-    width: 35.2em;
+    width: 31.2em;
     margin-left: -1.2em;
   }
 }
@@ -3412,15 +3412,15 @@ a:hover {
 }
 
 /* line 91 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/karma/dist/karma.styl */
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .example {
-    width: 33.4em;
+    width: 29.4em;
     margin-left: 1.2em;
   }
 }
-@media screen and (min-width: 44.6832em) and (max-width: 85.4832em) {
+@media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .example {
@@ -3441,7 +3441,7 @@ a:hover {
   margin: 0 auto;
   max-width: 100%;
 }
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 25 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .example .iphone {
@@ -3463,7 +3463,7 @@ a:hover {
 }
 
 /* line 27 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 28 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .example .appscreen {
@@ -3494,15 +3494,15 @@ a:hover {
 }
 
 /* line 91 : /Users/nathan/Development/Sites/getmeetingroom.com/app/bower_components/karma/dist/karma.styl */
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .description {
-    width: 33.4em;
+    width: 29.4em;
     margin-left: 1.2em;
   }
 }
-@media screen and (min-width: 44.6832em) and (max-width: 85.4832em) {
+@media screen and (min-width: 36.559599999999996em) and (max-width: 69.5596em) {
 
 /* line 129 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .description {
@@ -3516,7 +3516,7 @@ a:hover {
     width: 100%;
   }
 }
-@media screen and (min-width: 85.4832em) {
+@media screen and (min-width: 69.5596em) {
 
 /* line 43 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .description {
@@ -3585,7 +3585,7 @@ a:hover {
   margin-bottom: 0;
   white-space: pre-line;
 }
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 67 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .slogan.text {
@@ -3603,7 +3603,7 @@ a:hover {
 .landing.page .togglelist.button {
   margin-bottom: 3.2rem;
 }
-@media screen and (min-width: 85.4832em) {
+@media screen and (min-width: 69.5596em) {
 
 /* line 76 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .togglelist.button {
@@ -3626,7 +3626,7 @@ a:hover {
 .landing.page .features.active {
   display: block;
 }
-@media screen and (min-width: 44.6832em) {
+@media screen and (min-width: 36.559599999999996em) {
 
 /* line 88 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .features {
@@ -3636,7 +3636,7 @@ a:hover {
     text-align: left;
   }
 }
-@media screen and (min-width: 85.4832em) {
+@media screen and (min-width: 69.5596em) {
 
 /* line 91 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .features {
@@ -3651,7 +3651,7 @@ a:hover {
   text-align: left;
   margin-bottom: 1.6rem;
 }
-@media screen and (min-width: 85.4832em) {
+@media screen and (min-width: 69.5596em) {
 
 /* line 99 : /Users/nathan/Development/Sites/getmeetingroom.com/app/styles/modules/landing.styl */
   .landing.page .features p {
