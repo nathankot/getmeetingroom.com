@@ -1,6 +1,6 @@
 'use strict';
 
-ddescribe('Controller: RegisterCtrl', function () {
+describe('Controller: RegisterCtrl', function () {
 
   // load the controller's module
   beforeEach(module('meetingroomApp'));

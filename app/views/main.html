@@ -18,22 +18,45 @@
         </div>
         <div class="content">
           <h1>Meetings that don't suck.</h1>
+          <ul>
+            <li>Remote meetings without losing your sanity.</li>
+            <li>Meetings re-invented</li>
+            <li>Store unlimited meetings</li>
+            <li>Create rooms for an unlimited number of people</li>
+            <li>Express yourself fully - through voice</li>
+            <li>Communicate on the go</li>
+            <li>Catch up to the conversation when it suits you</li>
+            <li>Add file attachments or note</li>
+            <li>Define the topic</li>
+            <li>Rotate clockwise to fast-forward. Vice versa.</li>
+            <li>Add action date reminders to everyone's calendar</li>
+          </ul>
+          <h3>Coming soon to iOS.</h3>
         </div>
       </div>
 
     </div>
   </div>
 
-  <div class="calltoaction">
-    <form class="ui register form">
+  <div class="calltoaction" ng-controller="RegisterCtrl">
+    <form 
+      class="ui register form" 
+      ng-submit="save(user)"
+      ng-show="!state.registered"
+      >
       <div class="one field">
         <label>Let me know when it's ready:</label>
         <div class="ui input action">
-          <input type="email" placeholder="Your email address">
-          <div class="ui red button">Ease my Pain</div>
+          <input type="email" placeholder="Your email address" ng-model="user.email">
+          <div class="ui red button" ng-click="save(user)">Ease my Pain</div>
         </div>
       </div>
+      <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
     </form>
+
+    <div class="ui success message" ng-show="state.registered">
+      Thanks for showing interest!
+    </div>
   </div>
 
 </article>
