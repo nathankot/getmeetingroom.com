@@ -7,9 +7,12 @@ angular.module('meetingroomApp')
 
     $scope.save = function(user) {
       if (user.$valid) {
+        $scope.state.loading = true;
         $http.post(API_ROOT + '/users', { user: user }).success(function() {
+          $scope.state.loading = false;
           $scope.state.registered = true;
         }).error(function(res) {
+          $scope.state.loading = false;
           $scope.state.errors = res;
         });
       } else {

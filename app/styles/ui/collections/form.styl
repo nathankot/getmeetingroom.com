@@ -2,3 +2,35 @@
 
 .ui.form .field > label
   color #919191
+
+.ui.form.loading::after
+  background #1D1D1D url(../images/bg.png)
+
+.ui.form.loading::before
+  display block
+  position absolute
+  top 50%
+  left 50%
+  content ""
+  width 0
+  height 0
+  border-style solid
+  border-width 0
+  border-color transparent white
+  animation-name loader
+  animation-duration 2.5s
+  animation-iteration-count infinite 
+  animation-timing-function linear
+  z-index 1000
+
+@keyframes loader
+  0%
+    border-width 1em 1em 0 0
+  25%
+    border-width 0 1em 1em 0
+  50%
+    border-width 0 0 1em 1em
+  75%
+    border-width 1em 0 0 1em
+  100%
+    border-width 1em 1em 0 0
