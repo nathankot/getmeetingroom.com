@@ -14,3 +14,4 @@ angular.module('meetingroomApp', [])
 
 angular.module('meetingroomApp').constant('lodash', window._);
 angular.module('meetingroomApp').constant('jQuery', window.$);
+angular.module('wed.isApp').constant('socialite', window.Socialite);
