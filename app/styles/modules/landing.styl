@@ -4,7 +4,8 @@ _logo_size = image-size('../images/logo.png')
   position relative
   background-color #1D1D1D
   margin-bottom 300px
-  padding-top 100px
+  @media daddyOnly
+    padding-top 100px
 
   .informational
     container()
@@ -13,6 +14,7 @@ _logo_size = image-size('../images/logo.png')
       row()
 
   .example
+    expand_for('mummy')
     columns(3)
     .iphone
       position relative
@@ -24,28 +26,50 @@ _logo_size = image-size('../images/logo.png')
       left 8.65%
 
   .description
+    expand_for('mummy')
     columns(3)
     pull_right()
     padding-top line_breaks(2)
+    text-align center
+    @media daddyOnly
+      text-align left
 
   .title
     clearfix()
     margin-bottom line_breaks(2)
     .logo
-      display block
-      float left
-      margin-right 1em
+      display inline-block
+      margin-right .5em
       -image-background('../images/logo', 'png')
     .name
+      vertical-align top
       scale_type 4
-      display block
-      float left
+      display inline-block
       height _logo_size[1]
       margin 0
       color #4F4F4F
       em
         color white
         font-style normal
+
+  .slogan.text
+    margin-bottom 0
+
+  .soon.text
+    margin-bottom line_breaks(1)
+
+  .togglelist.button
+    margin-bottom line_breaks(2)
+    @media daddyOnly
+      display none
+
+  .features.list
+    display none
+    margin-bottom line_breaks(2)
+    &.active
+      display block
+    @media daddyOnly
+      display block
 
   .calltoaction
     position absolute
