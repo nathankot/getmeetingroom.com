@@ -12,7 +12,10 @@ angular.module('meetingroomApp')
           $scope.state.errors = res;
         });
       } else {
-        $scope.state.errors = ['Email is invalid'];
+        if (typeof user.$error !== 'undefined') {
+          if (user.$error.required) { $scope.state.errors = ['Email is required']; }
+          if (user.$error.email) { $scope.state.errors = ['Email is invalid']; }
+        }
       }
     };
 
